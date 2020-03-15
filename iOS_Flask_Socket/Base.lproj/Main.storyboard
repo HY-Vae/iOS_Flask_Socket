@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="IP地址" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k2U-ir-X8L">
+                                <rect key="frame" x="20" y="217" width="100" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Blv-iF-nJQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="端口号" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="up6-EY-XOl">
+                                <rect key="frame" x="140" y="217" width="100" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="ThO-Gf-rse"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Socket结果显示" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MLc-DJ-HD1">
+                                <rect key="frame" x="1" y="438" width="412" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="输入发送内容" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E6m-lt-jDG">
+                                <rect key="frame" x="20" y="301" width="220" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2kQ-Pc-Sbu">
+                                <rect key="frame" x="260" y="303" width="100" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="发送">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="didPressedSend:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oj6-ug-jod"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0SY-Qo-LTJ">
+                                <rect key="frame" x="260" y="219" width="100" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="CJ2-ws-8HC"/>
+                                </constraints>
+                                <state key="normal" title="连接">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="didPressedConnect:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XSF-gJ-XQ5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="k2U-ir-X8L" firstAttribute="top" secondItem="ibG-wM-KqH" secondAttribute="top" constant="173" id="0S6-MZ-BHk"/>
+                            <constraint firstItem="E6m-lt-jDG" firstAttribute="trailing" secondItem="up6-EY-XOl" secondAttribute="trailing" id="1Le-x6-r3H"/>
+                            <constraint firstItem="0SY-Qo-LTJ" firstAttribute="leading" secondItem="up6-EY-XOl" secondAttribute="trailing" constant="20" id="8pg-Vo-17y"/>
+                            <constraint firstItem="MLc-DJ-HD1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BEf-bG-iIf"/>
+                            <constraint firstItem="2kQ-Pc-Sbu" firstAttribute="trailing" secondItem="0SY-Qo-LTJ" secondAttribute="trailing" id="FVu-Hb-Cil"/>
+                            <constraint firstItem="E6m-lt-jDG" firstAttribute="top" secondItem="k2U-ir-X8L" secondAttribute="bottom" constant="50" id="Lzm-ZA-ANI"/>
+                            <constraint firstItem="up6-EY-XOl" firstAttribute="leading" secondItem="k2U-ir-X8L" secondAttribute="trailing" constant="20" id="a1J-Az-vFA"/>
+                            <constraint firstItem="ibG-wM-KqH" firstAttribute="trailing" secondItem="MLc-DJ-HD1" secondAttribute="trailing" constant="1" id="cKP-EB-y3q"/>
+                            <constraint firstItem="0SY-Qo-LTJ" firstAttribute="centerY" secondItem="k2U-ir-X8L" secondAttribute="centerY" id="fJf-sD-M94"/>
+                            <constraint firstItem="k2U-ir-X8L" firstAttribute="leading" secondItem="ibG-wM-KqH" secondAttribute="leading" constant="20" id="kOm-te-VaS"/>
+                            <constraint firstItem="2kQ-Pc-Sbu" firstAttribute="centerY" secondItem="E6m-lt-jDG" secondAttribute="centerY" id="lvi-cj-Oyh"/>
+                            <constraint firstItem="MLc-DJ-HD1" firstAttribute="leading" secondItem="ibG-wM-KqH" secondAttribute="leading" constant="1" id="quJ-aV-GBR"/>
+                            <constraint firstItem="up6-EY-XOl" firstAttribute="centerY" secondItem="k2U-ir-X8L" secondAttribute="centerY" id="xXb-u6-n06"/>
+                            <constraint firstItem="2kQ-Pc-Sbu" firstAttribute="leading" secondItem="0SY-Qo-LTJ" secondAttribute="leading" id="xk3-qV-daL"/>
+                            <constraint firstItem="E6m-lt-jDG" firstAttribute="leading" secondItem="k2U-ir-X8L" secondAttribute="leading" id="y8j-T8-RS9"/>
+                            <constraint firstItem="MLc-DJ-HD1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ycM-gg-3sO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ibG-wM-KqH"/>
+                    </view>
+                    <connections>
+                        <outlet property="IPTextField" destination="k2U-ir-X8L" id="xmM-sy-KIU"/>
+                        <outlet property="PortTextField" destination="up6-EY-XOl" id="PX6-cH-P6M"/>
+                        <outlet property="inputTextField" destination="E6m-lt-jDG" id="cdH-Z1-2nc"/>
+                        <outlet property="lblResult" destination="MLc-DJ-HD1" id="Glf-7I-B60"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="128.57142857142856"/>
+        </scene>
+    </scenes>
+</document>

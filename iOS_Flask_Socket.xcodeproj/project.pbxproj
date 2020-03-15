@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FFD25387565A61534037F28 /* libPods-iOS_Flask_Socket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F9E8DE589BADE90B5AB186 /* libPods-iOS_Flask_Socket.a */; };
+		84073F5C241E43C100FC2907 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073F5B241E43C100FC2907 /* AppDelegate.m */; };
+		84073F5F241E43C100FC2907 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073F5E241E43C100FC2907 /* SceneDelegate.m */; };
+		84073F62241E43C100FC2907 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073F61241E43C100FC2907 /* ViewController.m */; };
+		84073F65241E43C100FC2907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84073F63241E43C100FC2907 /* Main.storyboard */; };
+		84073F67241E43C300FC2907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84073F66241E43C300FC2907 /* Assets.xcassets */; };
+		84073F6A241E43C300FC2907 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84073F68241E43C300FC2907 /* LaunchScreen.storyboard */; };
+		84073F6D241E43C300FC2907 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073F6C241E43C300FC2907 /* main.m */; };
+		84073F77241E43C400FC2907 /* iOS_Flask_SocketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073F76241E43C400FC2907 /* iOS_Flask_SocketTests.m */; };
+		84073F82241E43C400FC2907 /* iOS_Flask_SocketUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84073F81241E43C400FC2907 /* iOS_Flask_SocketUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84073F73241E43C400FC2907 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84073F4F241E43C100FC2907 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84073F56241E43C100FC2907;
+			remoteInfo = iOS_Flask_Socket;
+		};
+		84073F7E241E43C400FC2907 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84073F4F241E43C100FC2907 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84073F56241E43C100FC2907;
+			remoteInfo = iOS_Flask_Socket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F4120CAC5F7B3EAC317DB33 /* Pods-iOS_Flask_Socket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Flask_Socket.release.xcconfig"; path = "Target Support Files/Pods-iOS_Flask_Socket/Pods-iOS_Flask_Socket.release.xcconfig"; sourceTree = "<group>"; };
+		84073F57241E43C100FC2907 /* iOS_Flask_Socket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Flask_Socket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84073F5A241E43C100FC2907 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84073F5B241E43C100FC2907 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84073F5D241E43C100FC2907 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		84073F5E241E43C100FC2907 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		84073F60241E43C100FC2907 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84073F61241E43C100FC2907 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84073F64241E43C100FC2907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84073F66241E43C300FC2907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84073F69241E43C300FC2907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84073F6B241E43C300FC2907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84073F6C241E43C300FC2907 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84073F72241E43C400FC2907 /* iOS_Flask_SocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Flask_SocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84073F76241E43C400FC2907 /* iOS_Flask_SocketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Flask_SocketTests.m; sourceTree = "<group>"; };
+		84073F78241E43C400FC2907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84073F7D241E43C400FC2907 /* iOS_Flask_SocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Flask_SocketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84073F81241E43C400FC2907 /* iOS_Flask_SocketUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Flask_SocketUITests.m; sourceTree = "<group>"; };
+		84073F83241E43C400FC2907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9F9E8DE589BADE90B5AB186 /* libPods-iOS_Flask_Socket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS_Flask_Socket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B1994DC7B1D9361C65F801 /* Pods-iOS_Flask_Socket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Flask_Socket.debug.xcconfig"; path = "Target Support Files/Pods-iOS_Flask_Socket/Pods-iOS_Flask_Socket.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84073F54241E43C100FC2907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFD25387565A61534037F28 /* libPods-iOS_Flask_Socket.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84073F6F241E43C400FC2907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84073F7A241E43C400FC2907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84073F4E241E43C100FC2907 = {
+			isa = PBXGroup;
+			children = (
+				84073F59241E43C100FC2907 /* iOS_Flask_Socket */,
+				84073F75241E43C400FC2907 /* iOS_Flask_SocketTests */,
+				84073F80241E43C400FC2907 /* iOS_Flask_SocketUITests */,
+				84073F58241E43C100FC2907 /* Products */,
+				9A9ED93AD36EC18E9E5CE657 /* Pods */,
+				9D8375D8F9F4861D8B03108F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84073F58241E43C100FC2907 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84073F57241E43C100FC2907 /* iOS_Flask_Socket.app */,
+				84073F72241E43C400FC2907 /* iOS_Flask_SocketTests.xctest */,
+				84073F7D241E43C400FC2907 /* iOS_Flask_SocketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84073F59241E43C100FC2907 /* iOS_Flask_Socket */ = {
+			isa = PBXGroup;
+			children = (
+				84073F5A241E43C100FC2907 /* AppDelegate.h */,
+				84073F5B241E43C100FC2907 /* AppDelegate.m */,
+				84073F5D241E43C100FC2907 /* SceneDelegate.h */,
+				84073F5E241E43C100FC2907 /* SceneDelegate.m */,
+				84073F60241E43C100FC2907 /* ViewController.h */,
+				84073F61241E43C100FC2907 /* ViewController.m */,
+				84073F63241E43C100FC2907 /* Main.storyboard */,
+				84073F66241E43C300FC2907 /* Assets.xcassets */,
+				84073F68241E43C300FC2907 /* LaunchScreen.storyboard */,
+				84073F6B241E43C300FC2907 /* Info.plist */,
+				84073F6C241E43C300FC2907 /* main.m */,
+			);
+			path = iOS_Flask_Socket;
+			sourceTree = "<group>";
+		};
+		84073F75241E43C400FC2907 /* iOS_Flask_SocketTests */ = {
+			isa = PBXGroup;
+			children = (
+				84073F76241E43C400FC2907 /* iOS_Flask_SocketTests.m */,
+				84073F78241E43C400FC2907 /* Info.plist */,
+			);
+			path = iOS_Flask_SocketTests;
+			sourceTree = "<group>";
+		};
+		84073F80241E43C400FC2907 /* iOS_Flask_SocketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84073F81241E43C400FC2907 /* iOS_Flask_SocketUITests.m */,
+				84073F83241E43C400FC2907 /* Info.plist */,
+			);
+			path = iOS_Flask_SocketUITests;
+			sourceTree = "<group>";
+		};
+		9A9ED93AD36EC18E9E5CE657 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2B1994DC7B1D9361C65F801 /* Pods-iOS_Flask_Socket.debug.xcconfig */,
+				2F4120CAC5F7B3EAC317DB33 /* Pods-iOS_Flask_Socket.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9D8375D8F9F4861D8B03108F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9F9E8DE589BADE90B5AB186 /* libPods-iOS_Flask_Socket.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84073F56241E43C100FC2907 /* iOS_Flask_Socket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84073F86241E43C400FC2907 /* Build configuration list for PBXNativeTarget "iOS_Flask_Socket" */;
+			buildPhases = (
+				8D9E1632F46950584AD6AE43 /* [CP] Check Pods Manifest.lock */,
+				84073F53241E43C100FC2907 /* Sources */,
+				84073F54241E43C100FC2907 /* Frameworks */,
+				84073F55241E43C100FC2907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS_Flask_Socket;
+			productName = iOS_Flask_Socket;
+			productReference = 84073F57241E43C100FC2907 /* iOS_Flask_Socket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84073F71241E43C400FC2907 /* iOS_Flask_SocketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84073F89241E43C400FC2907 /* Build configuration list for PBXNativeTarget "iOS_Flask_SocketTests" */;
+			buildPhases = (
+				84073F6E241E43C400FC2907 /* Sources */,
+				84073F6F241E43C400FC2907 /* Frameworks */,
+				84073F70241E43C400FC2907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84073F74241E43C400FC2907 /* PBXTargetDependency */,
+			);
+			name = iOS_Flask_SocketTests;
+			productName = iOS_Flask_SocketTests;
+			productReference = 84073F72241E43C400FC2907 /* iOS_Flask_SocketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84073F7C241E43C400FC2907 /* iOS_Flask_SocketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84073F8C241E43C400FC2907 /* Build configuration list for PBXNativeTarget "iOS_Flask_SocketUITests" */;
+			buildPhases = (
+				84073F79241E43C400FC2907 /* Sources */,
+				84073F7A241E43C400FC2907 /* Frameworks */,
+				84073F7B241E43C400FC2907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84073F7F241E43C400FC2907 /* PBXTargetDependency */,
+			);
+			name = iOS_Flask_SocketUITests;
+			productName = iOS_Flask_SocketUITests;
+			productReference = 84073F7D241E43C400FC2907 /* iOS_Flask_SocketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84073F4F241E43C100FC2907 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					84073F56241E43C100FC2907 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					84073F71241E43C400FC2907 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 84073F56241E43C100FC2907;
+					};
+					84073F7C241E43C400FC2907 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 84073F56241E43C100FC2907;
+					};
+				};
+			};
+			buildConfigurationList = 84073F52241E43C100FC2907 /* Build configuration list for PBXProject "iOS_Flask_Socket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84073F4E241E43C100FC2907;
+			productRefGroup = 84073F58241E43C100FC2907 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84073F56241E43C100FC2907 /* iOS_Flask_Socket */,
+				84073F71241E43C400FC2907 /* iOS_Flask_SocketTests */,
+				84073F7C241E43C400FC2907 /* iOS_Flask_SocketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84073F55241E43C100FC2907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84073F6A241E43C300FC2907 /* LaunchScreen.storyboard in Resources */,
+				84073F67241E43C300FC2907 /* Assets.xcassets in Resources */,
+				84073F65241E43C100FC2907 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84073F70241E43C400FC2907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84073F7B241E43C400FC2907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D9E1632F46950584AD6AE43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS_Flask_Socket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84073F53241E43C100FC2907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84073F62241E43C100FC2907 /* ViewController.m in Sources */,
+				84073F5C241E43C100FC2907 /* AppDelegate.m in Sources */,
+				84073F6D241E43C300FC2907 /* main.m in Sources */,
+				84073F5F241E43C100FC2907 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84073F6E241E43C400FC2907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84073F77241E43C400FC2907 /* iOS_Flask_SocketTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84073F79241E43C400FC2907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84073F82241E43C400FC2907 /* iOS_Flask_SocketUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84073F74241E43C400FC2907 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84073F56241E43C100FC2907 /* iOS_Flask_Socket */;
+			targetProxy = 84073F73241E43C400FC2907 /* PBXContainerItemProxy */;
+		};
+		84073F7F241E43C400FC2907 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84073F56241E43C100FC2907 /* iOS_Flask_Socket */;
+			targetProxy = 84073F7E241E43C400FC2907 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84073F63241E43C100FC2907 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84073F64241E43C100FC2907 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84073F68241E43C300FC2907 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84073F69241E43C300FC2907 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84073F84241E43C400FC2907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84073F85241E43C400FC2907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84073F87241E43C400FC2907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2B1994DC7B1D9361C65F801 /* Pods-iOS_Flask_Socket.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOS_Flask_Socket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JJWW.iOS-Flask-Socket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84073F88241E43C400FC2907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F4120CAC5F7B3EAC317DB33 /* Pods-iOS_Flask_Socket.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOS_Flask_Socket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JJWW.iOS-Flask-Socket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84073F8A241E43C400FC2907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOS_Flask_SocketTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JJWW.iOS-Flask-SocketTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_Flask_Socket.app/iOS_Flask_Socket";
+			};
+			name = Debug;
+		};
+		84073F8B241E43C400FC2907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOS_Flask_SocketTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JJWW.iOS-Flask-SocketTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_Flask_Socket.app/iOS_Flask_Socket";
+			};
+			name = Release;
+		};
+		84073F8D241E43C400FC2907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOS_Flask_SocketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JJWW.iOS-Flask-SocketUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOS_Flask_Socket;
+			};
+			name = Debug;
+		};
+		84073F8E241E43C400FC2907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOS_Flask_SocketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JJWW.iOS-Flask-SocketUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOS_Flask_Socket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84073F52241E43C100FC2907 /* Build configuration list for PBXProject "iOS_Flask_Socket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84073F84241E43C400FC2907 /* Debug */,
+				84073F85241E43C400FC2907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84073F86241E43C400FC2907 /* Build configuration list for PBXNativeTarget "iOS_Flask_Socket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84073F87241E43C400FC2907 /* Debug */,
+				84073F88241E43C400FC2907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84073F89241E43C400FC2907 /* Build configuration list for PBXNativeTarget "iOS_Flask_SocketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84073F8A241E43C400FC2907 /* Debug */,
+				84073F8B241E43C400FC2907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84073F8C241E43C400FC2907 /* Build configuration list for PBXNativeTarget "iOS_Flask_SocketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84073F8D241E43C400FC2907 /* Debug */,
+				84073F8E241E43C400FC2907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84073F4F241E43C100FC2907 /* Project object */;
+}
